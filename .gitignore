@@ -1,0 +1,25 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Manim / rendered output
+media/
+output/
+*.mp4
+*.png
+*.gif
+
+# RAG embedding cache (regenerated automatically)
+data/rag_embeddings.json
+
+# Secrets in submodules
+physisyn2/**/.env
+
+# OS
+Thumbs.db
+.DS_Store
