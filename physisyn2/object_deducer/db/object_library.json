@@ -1,0 +1,11 @@
+{
+  "projectile":{"type":"real_object"},
+  "ground":{"type":"real_object"},
+  "velocity_arrow":{"type":"imaginary_object"},
+  "gravity_arrow":{"type":"imaginary_object"},
+  "trajectory_curve":{"type":"imaginary_object"},
+  "range_marker":{"type":"measurement"},
+  "angle_marker":{"type":"measurement"},
+  "x_vs_time_graph":{"type":"graph"},
+  "y_vs_time_graph":{"type":"graph"}
+}

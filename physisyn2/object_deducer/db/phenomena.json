@@ -1,0 +1,43 @@
+{
+  "projectile_motion": {
+    "default_objects": ["projectile","ground","velocity_arrow","gravity_arrow","trajectory_curve"],
+    "default_constraints": ["F=ma","constant_gravity"],
+    "default_topics": ["trajectory","range","maximum_height"],
+    "default_camera": {
+      "strategy":"follow_projectile"
+    },
+    "default_text": [
+      "Projectile launched",
+      "Maximum height reached",
+      "Projectile lands"
+    ]
+  },
+
+  "shm": {
+    "default_objects": ["mass","spring","equilibrium_position","displacement_arrow"],
+    "default_constraints": ["F=-kx"],
+    "default_topics": ["restoring_force","periodicity","energy_exchange"],
+    "default_camera": {
+      "strategy":"track_oscillator"
+    },
+    "default_text": [
+      "Maximum displacement",
+      "Passing equilibrium",
+      "Direction reverses"
+    ]
+  },
+
+  "electrical_resonance": {
+    "default_objects": ["inductor","capacitor","wire","current_arrow"],
+    "default_constraints": ["resonance_condition"],
+    "default_topics": ["energy_exchange","resonance","oscillation"],
+    "default_camera": {
+      "strategy":"focus_shift"
+    },
+    "default_text": [
+      "Energy stored in capacitor",
+      "Energy stored in inductor",
+      "Resonance reached"
+    ]
+  }
+}
